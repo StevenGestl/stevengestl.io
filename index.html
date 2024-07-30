@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Steven Gestl Portfolio Website</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="" />
+        <!--insert logo-->
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Showcase-->
+
+    <section class="hero" id="hero">
+      <h1 class="section__title section__title--hero">
+        Hello, I am <strong>Steven</strong><br />front-end web developer
+      </h1>
+      <div class="btn-container">
+        <a href="#work" class="hero-btn">View my work ↓ </a>
+      </div>
+    </section>
+
+    <!-- CSS Text Animation 
+
+       <div class="wrapper four">
+      <div class="type">
+          <h3 class="typing">TYPING EFFECT</h3>
+      </div>
+  </div>
+
+    -->
+
+    <!--Intro
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Steven Gestl</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+        <img src="img/steven-outside.jpg" alt="a picture of Steven Gestl" class="intro__img" />
+    </section> -->
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who am I?</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Developer based in Pennsylvania extra words
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am a recent graduate of Harrisburg Area Community College where I
+          earned an associates degree while majoring in Web Development and
+          Design- Web Application Development. I am seeking a position as an
+          Entry Level Web Developer where I can grow my skills while working
+          alongside other talented developers. Looking forward to facing
+          challenging development projects that will impact the user experience.
+        </p>
+        <p>
+          Throughout my formal education at Harrisburg Area Community College
+          and freelance work I learned many web technologies including HTML,
+          CSS, JavaScript, WordPress, C#, React, ASP .NET, Node.js.
+        </p>
+        <p>
+          Not satisfied with “Good enough”. A passion for software architecture
+          and gaining practical skills. I look forward to meeting you!
+        </p>
+      </div>
+
+      <img
+        src="img/steven.jpg"
+        alt="Cool photo of Steven"
+        class="about-me__img"
+      />
+    </section>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Bacon ipsum dolor amet prosciutto shankle consequat, commodo
+            burgdoggen ground round leberkas et fatback minim mollit pork belly
+            rump. Meatloaf nulla capicola, chuck et filet mignon swine turkey
+            salami pork chop anim commodo. Pariatur andouille ipsum tenderloin.
+            Beef ribs ex irure veniam, voluptate chicken hamburger sed nostrud
+            drumstick ipsum. Bresaola dolore tongue mollit andouille officia
+            frankfurter ham pastrami capicola short ribs. Cupidatat mollit chuck
+            ham hamburger laborum duis shoulder jerky capicola.
+          </p>
+        </div>
+        <!--close service-->
+
+        <div class="service">
+          <h3>React</h3>
+          <p>
+            Bacon ipsum dolor amet prosciutto shankle consequat, commodo
+            burgdoggen ground round leberkas et fatback minim mollit pork belly
+            rump. Meatloaf nulla capicola, chuck et filet mignon swine turkey
+            salami pork chop anim commodo. Pariatur andouille ipsum tenderloin.
+            Beef ribs ex irure veniam, voluptate chicken hamburger sed nostrud
+            drumstick ipsum. Bresaola dolore tongue mollit andouille officia
+            frankfurter ham pastrami capicola short ribs. Cupidatat mollit chuck
+            ham hamburger laborum duis shoulder jerky capicola.
+          </p>
+        </div>
+        <!--close service-->
+
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>
+            Bacon ipsum dolor amet prosciutto shankle consequat, commodo
+            burgdoggen ground round leberkas et fatback minim mollit pork belly
+            rump. Meatloaf nulla capicola, chuck et filet mignon swine turkey
+            salami pork chop anim commodo. Pariatur andouille ipsum tenderloin.
+            Beef ribs ex irure veniam, voluptate chicken hamburger sed nostrud
+            drumstick ipsum. Bresaola dolore tongue mollit andouille officia
+            frankfurter ham pastrami capicola short ribs. Cupidatat mollit chuck
+            ham hamburger laborum duis shoulder jerky capicola.
+          </p>
+        </div>
+        <!--close service-->
+      </div>
+      <!--close services-->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <section class="skill">
+      <h2 class="section__title section__title--skills">My Skills</h2>
+      <div class="all-skills-div">
+      <div class="skill-div">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48px"
+          height="48px"
+        >
+          <linearGradient
+            id="SNASnMitCxQrIYk4GDibta"
+            x1="18.208"
+            x2="34.159"
+            y1="2.413"
+            y2="46.236"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#f09701" />
+            <stop offset="1" stop-color="#e36001" />
+          </linearGradient>
+          <path
+            fill="url(#SNASnMitCxQrIYk4GDibta)"
+            d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z"
+          />
+          <path
+            fill="#f09601"
+            d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z"
+          />
+          <path
+            fill="#fff"
+            d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5L24,25z M32.9,17l0.3-4H24v4H32.9z"
+          />
+          <path
+            fill="#d6e0e9"
+            d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"
+          />
+          <path
+            d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M34.278,12H33.2H24h-9.1h-1.06l0.062,1.058l0.7,12L14.657,26h-0.032l0.078,1.073l0.4,5.5l0.049,0.668 l0.636,0.209l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6l0.644-0.212l0.041-0.677l0.7-11.5L33.663,20H32.6H24h-3.672l-0.15-2H24h8.9 h0.928l0.069-0.925l0.3-4L34.278,12L34.278,12z M20.623,26H24h3.331l-0.185,2.769L24,29.843l-3.156-1.077l-0.148-1.846L20.623,26 L20.623,26z"
+            opacity=".05"
+          />
+          <path
+            d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M33.739,12.5H33.2H24h-9.1h-0.53l0.031,0.529l0.7,12l0.027,0.471H15.6H24h3.866l-0.242,3.634L24,30.372 l-3.628-1.239l-0.174-2.173l-0.037-0.46H19.7h-4h-0.538l0.039,0.536l0.4,5.5l0.024,0.334l0.318,0.105l7.9,2.6L24,35.626 l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.032-0.53H32.6H24h-4.136l-0.225-3H24h8.9h0.464l0.035-0.463l0.3-4 L33.739,12.5L33.739,12.5z"
+            opacity=".07"
+          />
+        </svg><div class="skill-label">HTML</div>
+      </div>
+      <div class="skill-div">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48px"
+          height="48px"
+        >
+          <path fill="#ffd600" d="M6,42V6h36v36H6z" />
+          <path
+            fill="#000001"
+            d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"
+          />
+        </svg><div class="skill-label">JavaScript</div>
+      </div>
+      <div class="skill-div">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48px"
+          height="48px"
+        >
+          <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
+          <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z" />
+          <path
+            fill="#FFF"
+            d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"
+          />
+          <path
+            fill="#EEE"
+            d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"
+          />
+        </svg><div class="skill-label">CSS</div>
+      </div>
+      <div class="skill-div">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48px"
+          height="48px"
+        >
+          <path
+            fill="#80deea"
+            d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z"
+          />
+          <path
+            fill="#80deea"
+            d="M15.1,44.6c-1,0-1.8-0.2-2.6-0.7C7.6,41.1,8.9,30.2,15.3,19l0,0c3-5.2,6.7-9.6,10.3-12.4c3.9-3,7.4-3.9,9.8-2.5	c2.5,1.4,3.4,4.9,2.8,9.8c-0.6,4.6-2.6,10-5.6,15.2c-3,5.2-6.7,9.6-10.3,12.4C19.7,43.5,17.2,44.6,15.1,44.6z M32.9,5.4	c-1.6,0-3.7,0.9-6,2.7c-3.4,2.7-6.9,6.9-9.8,11.9l0,0c-6.3,10.9-6.9,20.3-3.6,22.2c1.7,1,4.5,0.1,7.6-2.3c3.4-2.7,6.9-6.9,9.8-11.9	c2.9-5,4.8-10.1,5.4-14.4c0.5-4-0.1-6.8-1.8-7.8C34,5.6,33.5,5.4,32.9,5.4z"
+          />
+          <path
+            fill="#80deea"
+            d="M33,44.6c-5,0-12.2-6.1-17.6-15.6C8.9,17.8,7.6,6.9,12.5,4.1l0,0C17.4,1.3,26.2,7.8,32.7,19	c3,5.2,5,10.6,5.6,15.2c0.7,4.9-0.3,8.3-2.8,9.8C34.7,44.4,33.9,44.6,33,44.6z M13.5,5.8c-3.3,1.9-2.7,11.3,3.6,22.2	c6.3,10.9,14.1,16.1,17.4,14.2c1.7-1,2.3-3.8,1.8-7.8c-0.6-4.3-2.5-9.4-5.4-14.4C24.6,9.1,16.8,3.9,13.5,5.8L13.5,5.8z"
+          />
+          <circle cx="24" cy="24" r="4" fill="#80deea" />
+        </svg><div class="skill-label">REACT.JS</div>
+      </div>
+      <div class="skill-div">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48px"
+          height="48px"
+        >
+          <path
+            fill="#fff"
+            d="M24 4.050000000000001A19.95 19.95 0 1 0 24 43.95A19.95 19.95 0 1 0 24 4.050000000000001Z"
+          />
+          <path
+            fill="#01579b"
+            d="M8.001,24c0,6.336,3.68,11.806,9.018,14.4L9.385,17.488C8.498,19.479,8.001,21.676,8.001,24z M34.804,23.194c0-1.977-1.063-3.35-1.67-4.412c-0.813-1.329-1.576-2.437-1.576-3.752c0-1.465,1.471-2.84,3.041-2.84 c0.071,0,0.135,0.006,0.206,0.008C31.961,9.584,28.168,8,24.001,8c-5.389,0-10.153,2.666-13.052,6.749 c0.228,0.074,0.307,0.039,0.611,0.039c1.669,0,4.264-0.2,4.264-0.2c0.86-0.057,0.965,1.212,0.099,1.316c0,0-0.864,0.105-1.828,0.152 l5.931,17.778l3.5-10.501l-2.603-7.248c-0.861-0.046-1.679-0.152-1.679-0.152c-0.862-0.056-0.762-1.375,0.098-1.316 c0,0,2.648,0.2,4.217,0.2c1.675,0,4.264-0.2,4.264-0.2c0.861-0.057,0.965,1.212,0.104,1.316c0,0-0.87,0.105-1.832,0.152l5.891,17.61 l1.599-5.326C34.399,26.289,34.804,24.569,34.804,23.194z M24.281,25.396l-4.8,13.952c1.436,0.426,2.95,0.652,4.52,0.652 c1.861,0,3.649-0.324,5.316-0.907c-0.04-0.071-0.085-0.143-0.118-0.22L24.281,25.396z M38.043,16.318 c0.071,0.51,0.108,1.059,0.108,1.645c0,1.628-0.306,3.451-1.219,5.737l-4.885,14.135C36.805,35.063,40,29.902,40,24 C40,21.219,39.289,18.604,38.043,16.318z"
+          />
+          <path
+            fill="#01579b"
+            d="M4,24c0,11.024,8.97,20,19.999,20C35.03,44,44,35.024,44,24S35.03,4,24,4S4,12.976,4,24z M5.995,24 c0-9.924,8.074-17.999,18.004-17.999S42.005,14.076,42.005,24S33.929,42.001,24,42.001C14.072,42.001,5.995,33.924,5.995,24z"
+          />
+        </svg><div class="skill-label">WordPress</div>
+      </div>
+      <div class="skill-div">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48px"
+          height="48px"
+        >
+          <path
+            d="M 24 3.5957031 C 23.256423 3.5956569 22.51369 3.8749814 21.955078 4.4335938 L 17.738281 8.6503906 A 1.50015 1.50015 0 0 0 17.128906 9.6054688 A 1.50015 1.50015 0 0 0 17.121094 9.6582031 A 1.50015 1.50015 0 0 0 17.771484 11.164062 A 1.50015 1.50015 0 0 0 17.779297 11.169922 L 21.177734 14.570312 A 2.91 2.91 0 0 0 22.5 17.763672 L 22.5 30.240234 A 2.91 2.91 0 0 0 24 35.640625 A 2.91 2.91 0 0 0 25.5 30.236328 L 25.5 18.892578 L 29.908203 23.300781 A 2.91 2.91 0 0 0 32.730469 26.910156 A 2.91 2.91 0 0 0 32.730469 21.091797 A 2.91 2.91 0 0 0 32.03125 21.179688 L 26.822266 15.972656 A 2.91 2.91 0 0 0 24 12.361328 A 2.91 2.91 0 0 0 23.300781 12.451172 L 20.740234 9.890625 L 24 6.6308594 L 41.371094 24 L 32.068359 33.302734 A 1.50015 1.50015 0 1 0 34.189453 35.423828 L 43.566406 26.046875 L 43.568359 26.044922 C 44.685232 24.927962 44.68494 23.071659 43.568359 21.955078 L 26.044922 4.4335938 C 25.486547 3.8741902 24.743577 3.5957493 24 3.5957031 z M 14.480469 12.484375 A 1.50015 1.50015 0 0 0 13.449219 12.9375 L 4.4316406 21.957031 C 3.3147682 23.073991 3.3150602 24.930295 4.4316406 26.046875 L 21.955078 43.568359 A 1.50015 1.50015 0 0 0 21.955078 43.570312 C 23.072829 44.686008 24.927171 44.686008 26.044922 43.570312 A 1.50015 1.50015 0 0 0 26.044922 43.568359 L 29.976562 39.636719 A 1.50015 1.50015 0 1 0 27.855469 37.515625 L 24 41.371094 L 6.6289062 24.001953 L 15.570312 15.060547 A 1.50015 1.50015 0 0 0 14.480469 12.484375 z"
+          />
+        </svg><div class="skill-label"><div>Git</div>
+      </div>
+      </div>
+    </section>
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle">A selection of my work</p>
+      <p>
+        Bacon ipsum dolor amet prosciutto shankle consequat, commodo burgdoggen
+        ground round leberkas et fatback minim mollit pork belly rump. Meatloaf
+        nulla capicola, chuck et filet mignon swine turkey salami pork chop anim
+        commodo. Pariatur andouille ipsum tenderloin. Beef ribs ex irure veniam,
+        voluptate chicken hamburger sed nostrud drumstick ipsum. Bresaola dolore
+        tongue mollit andouille officia frankfurter ham pastrami capicola short
+        ribs. Cupidatat mollit chuck ham hamburger laborum duis shoulder jerky
+        capicola.
+      </p>
+
+      <div class="portfolio">
+        <!--item 1-->
+        <a href="portfolio.html" class="portfolio__item">
+          <img src="img/laptop.jpg" class="portfolio__img" alt="#" />
+        </a>
+        <!--item 2-->
+        <a href="portfolio.html" class="portfolio__item">
+          <img src="img/motherboard.jpg" class="portfolio__img" alt="#" />
+        </a>
+        <!--item 3-->
+        <a href="portfolio.html" class="portfolio__item">
+          <img src="img/phone.jpg" class="portfolio__img" alt="#" />
+        </a>
+        <!--item 4-->
+        <a href="portfolio.html" class="portfolio__item">
+          <img src="img/services-bg.jpg" class="portfolio__img" alt="#" />
+        </a>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+      <a href="#" class="footer__link">Stevengestl@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/steven-gestl-46546690/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/StevenGestl">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="#">
+            <i class="fab fa-discord"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
